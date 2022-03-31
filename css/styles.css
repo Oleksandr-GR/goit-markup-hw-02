@@ -1,0 +1,30 @@
+:root {
+--header-background-color: #FFFFFF;
+--footer-background-color: #2F303A;
+--background-color: #E5E5E5;
+--studio-down-background-color: #F5F4FA;
+--hover-logo-text-color: #2196F3;
+--title-text-color: #212121;
+--desrcrition-text-color: #757575;
+--footer-links-color: rgba(255, 255, 255, 0.6);
+}
+
+body { 
+    font-family: Roboto, sans-serif;
+}
+/* logo */
+.logo {
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    color: var(--hover-logo-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-studio-header {
+    color: #212121;
+}
+.logo-studio-footer {
+    color: #FFFFFF;
+}
