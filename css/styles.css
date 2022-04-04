@@ -44,12 +44,17 @@ body {
 
 /* header-menu */
 .navigation .page {
+    font-weight: 500;
+    line-height: 1.14;
     color: var(--title-text-color);
     letter-spacing: 0.02em;
     text-decoration: none;
  
 }
 .contact .details {   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--desrcrition-text-color);
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -84,10 +89,12 @@ text-transform: uppercase;
 
 .hero-button {
 font-weight: 700;
+font-family: inherit;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
 background: var(--hover-logo-text-color);
+color: var(--background-color);
 cursor: pointer;
 }
 
